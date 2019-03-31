@@ -41,26 +41,29 @@ $colors: (
   dark:       #222
 );
 
+$background-color: transparent;
+$text-input-placeholder-color: white;
+
+
 
 // App iOS Variables
 // --------------------------------------------------
 // iOS only Sass variables can go here
-
+$select-ios-placeholder-color: white;
 
 
 
 // App Material Design Variables
 // --------------------------------------------------
 // Material Design only Sass variables can go here
-
+$select-md-placeholder-color: white;
 
 
 
 // App Windows Variables
 // --------------------------------------------------
 // Windows only Sass variables can go here
-
-
+$select-wp-placeholder-color: white;
 
 
 // App Theme

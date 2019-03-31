@@ -1,18 +1,46 @@
-<ion-header>
-  <ion-navbar>
-    <button ion-button menuToggle>
-      <ion-icon name="menu"></ion-icon>
-    </button>
-    <ion-title>Home</ion-title>
-  </ion-navbar>
-</ion-header>
+
 
 <ion-content padding>
-  <h3>Ionic Menu Starter</h3>
+  <div class="titulo">
+    <h1 text-center>
+      COMO PODEMOS TE AJUDAR?
+    </h1>
+  </div>
 
-  <p>
-    If you get lost, the <a href="http://ionicframework.com/docs/v2">docs</a> will show you the way.
-  </p>
+  <br><br>
+  <ion-grid>
+    <ion-row>
+      <ion-col col-6>
+        <div class="borda" (click)="onClickBtn()">
+          <img src="assets/imgs/blind.png">
+        </div>
 
-  <button ion-button secondary menuToggle>Toggle Menu</button>
+      </ion-col>
+      <ion-col col-6>
+        <div class="borda"(click)="onClickBtn()">
+          <img src="assets/imgs/disabled.png">
+        </div>
+      </ion-col>
+    </ion-row>
+
+    <ion-row>
+      <ion-col col-6>
+        <div class="borda"(click)="onClickBtn()">
+          <img src="assets/imgs/hearing.png">
+        </div>
+      </ion-col>
+      <ion-col col-6>
+        <div class="borda"(click)="onClickBtn()">
+          <img src="assets/imgs/brain.png" class="flip">
+        </div>
+      </ion-col>
+    </ion-row>
+
+  </ion-grid>
+
+  <br>
+  <div class="borda speaker">
+    <img src="assets/imgs/speaker.png">
+  </div>
+
 </ion-content>
